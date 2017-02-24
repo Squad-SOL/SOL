@@ -1,2 +1,52 @@
 $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
 @import '~bootstrap-sass/assets/stylesheets/bootstrap';
+
+$brown: #775739;
+$teal: #3AB2D1;
+$dk-teal: #396A77;
+
+// the body holding the book
+.look-at-books {
+  background-color: $brown;
+  margin: auto;
+};
+
+// the button to get books
+.btn {
+  background-color: $teal !important;
+  border: 1px solid $dk-teal !important;
+  border-radius: 0;
+  color: $dk-teal !important;
+  font-weight: bolder;
+  -webkit-transition-duration: .2s;
+  transition-duration: .2s;
+};
+
+.btn:hover {
+  background-color: $dk-teal !important;
+  border: 1px solid $teal !important;
+  color: $teal !important;
+  font-weight: bolder;
+}
+
+.btn:active {
+  background-color: $dk-teal !important;
+  border: 1px solid $teal !important;
+  color: $teal !important;
+  font-weight: bolder;
+}
+
+// the div for the list of books
+.book-list-here {
+  max-width: 300px;
+  width: 80%;
+};
+
+// the div for each actual book
+.book {
+  background-color: $teal !important;
+  border: 1px solid $dk-teal !important;
+  border-radius: 0;
+  color: $dk-teal !important;
+  font-weight: bolder;
+};
